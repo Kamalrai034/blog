@@ -1,0 +1,72 @@
+.like_comment{
+    display: flex;
+    gap: 1rem;
+}
+.icons{
+    /* border: 1px solid red; */
+    color: rgb(175, 152, 152);
+    cursor: pointer;
+}
+.active{
+    color: red;
+    /* background-color: blueviolet; */
+}
+.feedItem{
+    padding: 4%;
+}
+.feedItem p{
+    text-align: justify;
+}
+.delEdit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: min-content;
+}
+.comment button{
+    width: fit-content;
+    background-color: none;
+    border: none;
+    color: rgb(28, 108, 199);
+    cursor: pointer;
+    padding: 4%;
+    font-size: 1.2rem;
+}
+.allcommentItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1% 15%;
+    gap: 2rem;
+}
+.allcommentItem button{
+    height: fit-content;
+    border: none;
+    background-color: none;
+    color: rgb(14, 109, 187);
+}
+.allcommentItem p{
+    display: block;
+    text-align: justify;
+}
+/* .allcommentItem textarea{
+    overflow: hidden;
+} */
+button{
+    cursor: pointer;
+}
+.parentcomment{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.showcomments{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}

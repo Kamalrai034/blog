@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1% 5%;
+    background-color: brown;
+    color: whitesmoke;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    /* height: 100%; */
+    /* align-items: stretch; */
+}
+.nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 25% 15%;
+    border-radius: 5px;
+}
+.active{
+    background-color: rgb(34, 121, 197);
+    color: red;
+}
+a{
+    cursor: pointer;
+}

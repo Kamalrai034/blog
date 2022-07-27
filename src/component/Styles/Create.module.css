@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.create{
+    background-color: rgb(219, 51, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+.create button{
+    padding: 4%;
+    background-color: rgb(218, 116, 32);
+    border: none;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
