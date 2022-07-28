@@ -13,8 +13,9 @@
 }
 .feedItem{
     padding: 4%;
+    /* position: relative; */
 }
-.feedItem p{
+.comm{
     text-align: justify;
 }
 .delEdit{
@@ -28,7 +29,7 @@
     gap: 0.2rem;
     width: min-content;
 }
-.comment button{
+.button{
     width: fit-content;
     background-color: none;
     border: none;
@@ -49,6 +50,7 @@
     border: none;
     background-color: none;
     color: rgb(14, 109, 187);
+    cursor: pointer;
 }
 .allcommentItem p{
     display: block;
@@ -57,9 +59,6 @@
 /* .allcommentItem textarea{
     overflow: hidden;
 } */
-button{
-    cursor: pointer;
-}
 .parentcomment{
     display: flex;
     flex-direction: column;

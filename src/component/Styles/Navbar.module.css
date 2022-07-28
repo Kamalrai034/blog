@@ -14,16 +14,12 @@
     /* height: 100%; */
     /* align-items: stretch; */
 }
-.nav ul li a{
+.nav a{
     text-decoration: none;
     color: whitesmoke;
+    cursor: pointer;
+}
+.nav ul li a{
     padding: 25% 15%;
     border-radius: 5px;
-}
-.active{
-    background-color: rgb(34, 121, 197);
-    color: red;
-}
-a{
-    cursor: pointer;
 }

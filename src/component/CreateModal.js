@@ -5,6 +5,8 @@ import { Storage } from './Storage'
 function CreateModal(props) {
     const gotit = useContext(Storage)
   return (
+    <>
+    <div className={classes.overlay}></div>
     <div className={classes.modal}>
         <p>
             <span>Blog!</span>
@@ -18,6 +20,7 @@ function CreateModal(props) {
         </form>
         <div></div>
     </div>
+    </>
   )
 }
 

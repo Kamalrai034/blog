@@ -6,6 +6,19 @@
     box-shadow: 0 2px 8px rgb(0,0,0,0.5);
     padding: 4%;
     background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    bottom: 5%;
+    left: 24%;
+}
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    z-index: 11;
+    background-color: grey;
+    position: relative;
+    opacity: 0.8;
+  transition: opacity .2s ease;
 }
 .modal form{
     display: flex;

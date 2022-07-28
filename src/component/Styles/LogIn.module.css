@@ -14,7 +14,7 @@ body{
     gap: 1rem;
     /* padding: 12%; */
 }
-.login:first-child img{
+.image{
     display: none;
 }
 .content{
@@ -58,7 +58,7 @@ body{
     .login{
         padding: 1% 28%;
     }
-    .login:first-child img{
+    .image{
         display: block;
     }
     .form input,button{
